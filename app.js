@@ -13,7 +13,8 @@ let sevenWindow = document.querySelector('.seven-window','.seven-window-text', '
 let close6Window = document.querySelector( '.close-6');
 let eightWindow = document.querySelector('.eight-window','.eight-window-text', '.eight-window-img')
 let close7Window = document.querySelector( '.close-7');
-
+let nineWindow = document.querySelector('.nine-window','.nine-window-text', '.nine-window-img')
+let close7Window = document.querySelector( '.close-8');
 
 
 aboutWindow.addEventListener('click', function(){
@@ -38,6 +39,9 @@ close5Window.addEventListener('click', function(){
 });
 close6Window.addEventListener('click', function(){
     eightWindow.style.setProperty('visibility', 'visible');
+});
+close7Window.addEventListener('click', function(){
+    nineWindow.style.setProperty('visibility', 'visible');
 });
 
 
